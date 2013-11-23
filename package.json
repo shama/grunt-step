@@ -1,0 +1,39 @@
+{
+  "name": "grunt-step",
+  "description": "Add confirmation steps to your Grunt flow.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/shama/grunt-step",
+  "author": {
+    "name": "Kyle Robinson Young",
+    "email": "kyle@dontkry.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shama/grunt-step.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shama/grunt-step/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shama/grunt-step/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
