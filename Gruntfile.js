@@ -27,5 +27,5 @@ module.exports = function(grunt) {
   });
   grunt.loadTasks('tasks');
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.registerTask('default', ['jshint', 'step', 'jshint', 'step']);
+  grunt.registerTask('default', ['jshint', 'step:lint again?', 'jshint', 'step']);
 };
