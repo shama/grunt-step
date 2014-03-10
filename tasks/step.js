@@ -9,9 +9,10 @@
 'use strict';
 
 module.exports = function(grunt) {
+  var format = require('util').format;
   var readline = require('readline');
 
-  grunt.registerTask('step', 'Add confirmation steps to your Grunt flow.', function() {
+  grunt.registerTask('step', 'Add confirmation steps to your Grunt flow.', function(text) {
     var options = this.options({
       option: 'ack',
     });
@@ -26,7 +27,8 @@ module.exports = function(grunt) {
       output: process.stdout
     });
 
-    rl.question('Do you want to continue? (Y/n) ', function(answer) {
+    text = format('%s (Y/n) ', text || 'Do you want to continue?');
+    rl.question(text, function(answer) {
       rl.close();
       if (answer.toLowerCase() === 'n') {
         done(false);
