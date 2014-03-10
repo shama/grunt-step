@@ -69,6 +69,7 @@ Now `grunt` will always trigger the prompts.
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+* 0.2.0 - Add support for custom prompt messages (@jharding)
 * 0.1.0 - initial release
 
 ## License

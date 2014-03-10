@@ -1,7 +1,7 @@
 {
   "name": "grunt-step",
   "description": "Add confirmation steps to your Grunt flow.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/shama/grunt-step",
   "author": {
     "name": "Kyle Robinson Young",
